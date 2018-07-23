@@ -1,0 +1,12 @@
+---
+- provider_name: Your Fight Site VOD
+  provider_url: https://vod.yourfightsite.com
+  endpoints:
+  - schemes:
+    - https://vod.yourfightsite.com/channels/*/videos/*
+    url: https://vod.yourfightsite.com/oembed
+    example_urls:
+    - http://vod.yourfightsite.com/oembed?url=https%3A//vod.yourfightsite.com/channels/tnt-extreme-wrestling/videos/going-off-big-time-2018&format=json
+    discovery: true
+    notes: Provider only supports the 'rich' type
+...
